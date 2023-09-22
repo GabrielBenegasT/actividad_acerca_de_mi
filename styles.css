@@ -1,0 +1,85 @@
+header {
+    background-color: #ffffff;
+    color: #5327d9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #4b1ebe;
+    font-size: 36px;
+    margin: 0;
+}
+
+#Info-Personal {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#Info-Personal h2 {
+    font-size: 24px;
+    color: #ff0000;
+}
+
+#Info-Personal p {
+    font-size: 16px;
+    color: #ff0000;
+}
+
+
+#Habilidades h2 {
+    font-size: 24px;
+    color: #03b2c2;
+}
+
+#Habilidades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Habilidades li {
+    font-size: 16px;
+    color: #03b2c2;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #06ebfc;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+    header, #Info-Personal, #Habilidades {
+        padding: 30px;
+        }
+
+        h1, h2 {
+            font-size: 28px;
+        }
+
+}
+
+
+@media screen and (max-width: 1023px) {
+    header, #Info-Personal, #Habilidades {
+        padding: 20px;
+    }
+
+    h1, h2 {
+        font-size: 22px; }
+    }
+
+
+    @media screen and (max-width: 767px) {
+        header, #Info-Personal, #Habilidades {
+            padding: 10px;
+        }
+            h1, h2 {
+                font-size: 18px;
+                          }
+                        }
+                
+                       
